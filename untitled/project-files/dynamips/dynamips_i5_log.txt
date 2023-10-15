@@ -1,0 +1,15 @@
+Oct 13 10:58:37.508 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 13 10:58:37.508 HYPERVISOR: Started on IP = localhost, TCP port = 62873.
+Oct 13 10:58:38.008 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 13 10:58:38.008 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Ejemplo\ProtocoloSTP\untitled\project-files\dynamips 
+Oct 13 10:58:38.195 GENERAL: working_dir=D:\Ejemplo\ProtocoloSTP\untitled\project-files\dynamips
+Oct 13 10:58:38.195 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Oct 13 10:59:01.070 HYPERVISOR: exec_cmd: nio create_udp udp-c0a5ad46-6d54-47ac-8ead-64c41bd32749 10001 127.0.0.1 10000 
+Oct 13 10:59:01.070 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-c0a5ad46-6d54-47ac-8ead-64c41bd32749 
+Oct 13 10:59:01.102 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-c0a5ad46-6d54-47ac-8ead-64c41bd32749 1 
+Oct 13 10:59:48.004 HYPERVISOR: exec_cmd: ethsw remove_nio Switch1 udp-c0a5ad46-6d54-47ac-8ead-64c41bd32749 
+Oct 13 10:59:48.035 HYPERVISOR: exec_cmd: nio delete udp-c0a5ad46-6d54-47ac-8ead-64c41bd32749 
+Oct 13 10:59:48.035 HYPERVISOR: exec_cmd: ethsw delete Switch1 
+Oct 13 10:59:48.051 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 13 10:59:48.113 HYPERVISOR: Stopped.
+Oct 13 10:59:48.113 GENERAL: reset done.

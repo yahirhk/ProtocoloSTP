@@ -1,0 +1,35 @@
+Oct 13 11:03:08.504 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Oct 13 11:03:08.504 HYPERVISOR: Started on IP = localhost, TCP port = 63021.
+Oct 13 11:03:09.004 HYPERVISOR: exec_cmd: hypervisor version 
+Oct 13 11:03:09.004 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Ejemplo\ProtocoloSTP\untitled\project-files\dynamips 
+Oct 13 11:03:09.504 GENERAL: working_dir=D:\Ejemplo\ProtocoloSTP\untitled\project-files\dynamips
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: hypervisor working_dir D:\Ejemplo\ProtocoloSTP\untitled\project-files\dynamips\5d8fc914-c188-4233-b30f-969fc1fb954d 
+Oct 13 11:03:09.504 GENERAL: working_dir=D:\Ejemplo\ProtocoloSTP\untitled\project-files\dynamips\5d8fc914-c188-4233-b30f-969fc1fb954d
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm create ESW1 1 c3725 
+Oct 13 11:03:09.504 VM: VM ESW1 created.
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW1 5000 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW1 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/yahir/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm set_idle_pc ESW1 0x602467a4 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm set_exec_area ESW1 64 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm set_ram ESW1 100 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm set_nvram ESW1 256 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm set_disk0 ESW1 1 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 13 11:03:09.504 HYPERVISOR: exec_cmd: vm slot_add_binding ESW1 1 0 NM-16ESW 
+Oct 13 11:03:09.551 HYPERVISOR: exec_cmd: vm set_ios ESW1 C:/Users/yahir/GNS3/images/IOS/c3725-adventerprisek9-mz.124-25d.image 
+Oct 13 11:03:12.863 HYPERVISOR: exec_cmd: vm set_ghost_status ESW1 2 
+Oct 13 11:03:12.863 HYPERVISOR: exec_cmd: vm set_ghost_file ESW1 D:\Ejemplo\ProtocoloSTP\untitled\project-files\dynamips\c3725-adventerprisek9-mz.124-25d.image-100.ghost 
+Oct 13 11:03:12.863 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 13 11:03:12.863 HYPERVISOR: exec_cmd: vm set_config ESW1 configs\i1_startup-config.cfg 
+Oct 13 11:03:12.863 HYPERVISOR: exec_cmd: vm start ESW1 
+Oct 13 11:03:25.719 HYPERVISOR: exec_cmd: vm get_status ESW1 
+Oct 13 11:03:25.719 HYPERVISOR: exec_cmd: vm stop ESW1 
+Oct 13 11:03:25.751 VM: VM ESW1 shutdown.
+Oct 13 11:03:25.751 HYPERVISOR: exec_cmd: vm extract_config ESW1 
+Oct 13 11:03:25.766 HYPERVISOR: exec_cmd: vm delete ESW1 
+Oct 13 11:03:25.766 VM: VM ESW1 destroyed.
+Oct 13 11:03:25.766 HYPERVISOR: exec_cmd: hypervisor stop 
+Oct 13 11:03:26.235 HYPERVISOR: Stopped.
+Oct 13 11:03:26.235 GENERAL: reset done.
